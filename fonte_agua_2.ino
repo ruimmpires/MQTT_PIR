@@ -3,9 +3,9 @@
 #include <DHT.h>
 
 // --- Configurações de WiFi e MQTT ---
-const char* ssid = "SALA";
-const char* password = "g0mesp1res";
-const char* mqtt_server = "192.168.1.201";
+const char* ssid = "SSID";
+const char* password = "pass";
+const char* mqtt_server = "IP";
 const char* topicPIR = "home/pir1";
 const char* topicTemp = "home/temp/2";
 const char* topicHum = "home/hum/2";
